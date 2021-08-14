@@ -7,7 +7,7 @@ Create MySQL Databases Graphically
 
 # How-To-Setup
 
-1. take [/enitor](//github.com/MAbdullahAhmad/entitor/entitor) to htdocs (xampp)
+1. take [/enitor](//github.com/MAbdullahAhmad/entitor/tree/main/entitor) to htdocs (xampp)
 2. visit [localhost/entitor](//127.0.0.1/entitor/)
 
 Database will be created automatically. Enter Nick on welcome and start working.
