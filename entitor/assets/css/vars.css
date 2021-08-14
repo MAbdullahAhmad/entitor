@@ -1,0 +1,16 @@
+:root{
+  --color-primary: #85ceff;
+  --color-primary-lght: #dcf1ff;
+  --color-primary-alt: #42b3ff;
+  --color-secondary: #eeeeee;
+  --color-tirtiory: #333333;
+  --color-promin-lgh: #1eb65d;
+  --color-promin: #0c9e49;
+
+  --color-success: var(--success);
+  --color-muted: #888888;
+  --color-muted-lgh: #cccccc;
+  --color-muted-alt: #777777;
+
+  --master-container-bp: 1100px;
+}

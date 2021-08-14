@@ -1,0 +1,47 @@
+.enav-wrapper{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  border-bottom: 5px solid var(--color-secondary);
+}
+.enav{
+  flex-basis: 100%;
+
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  max-width: var(--master-container-bp);
+}
+.enav-logo{
+  display: inline-block;
+  text-decoration: none!important;
+}
+.enav-logo-img{
+  height: 50px;
+  width: auto;
+  padding: 0 20px;
+}
+.enav-menu{
+  padding: 0 20px;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+.enav-item{
+  display: inline-block;
+}
+.enav-link{
+  padding: 0 20px 10px;
+  color: var(--color-muted);
+  text-decoration: none!important;
+
+  cursor: pointer;
+  transition: color .2s ease-in-out;
+}
+.enav-link:hover, .enav-link.active{
+  color: var(--color-primary-alt);
+}
